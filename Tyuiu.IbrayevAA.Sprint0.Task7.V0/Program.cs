@@ -59,7 +59,11 @@ namespace Tyuiu.IbrayevAA.Sprint0.Task7.V0
                     Console.Write(resultArray[i] + ", ");
                 }
             }
-
+            else
+            {
+                Console.WriteLine("Ошибка! Исходные данные массива имеют разное количество элементов");
+            }
+            Console.ReadKey();
         }
     }
 }
